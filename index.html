@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Exo+2&display=swap" rel="stylesheet">
     <title>ACCESORIES PAGE</title>
   </head>
+  <body>
   <div>
     <dvi id="container">
       <div id="header1">
@@ -42,6 +43,8 @@
       </div>
 
       <div id="header2">
+        <form action="search"> <form action="search"><input type="text" /><button onclick="submit"><b>SEARCH</b></form> 
+        </button></form>
         <ul>
           <li><a href="home.html">HOME</a></li>
           <li><a href="parts.html">PARTS</a></li>
@@ -49,8 +52,6 @@
           <li><a href="dealers.html">DEALERS</a></li>
           <li><a href="Faqs.html">FAQs</a></li>
           <li><a href="countact.html">CONTACT</a></li>
-         <form action="search"><input type="text" /><button onclick="submit"><b>SEARCH</b></form> 
-          </button>
         </ul>
         
       </div>
@@ -113,34 +114,31 @@
         <div id="footerB2">
           <div id='footer-right'> 
             <h5 style="color: gray;">ABOUT AUTODUKA</h5>
-            <p >
+            <p  class="footer-right-item">
               Autoduka is a Kenya based and owned company that offers fleet
               owners and individual commercial vehicle owner a wide variety
               of service parts and vehicle accessories countrywide.<br /><br/>
-              <a style="color:#fdcb25;" href= "read.html">READ MORE &mdash;&gt;</a>
+              <a style="color:#fdcb25;" href= "read.html">READ MORE <span style='font-size:30px;'>&#8594;</span></a>
             </p>
         </div>
+        
         <div id='footer-right-center'> 
-            <h5 style="color: gray;">AUTODUKA DEALERS</h5>
-            <p > 
-                 <h5>NAIROBI COUNTY</h5>
-            
-                 <h5>NAKURU COUNTY</h5>
-              
-                 <h5>KERICHO COUNTY</h5>
-             
-                 <h5>KISUMU COUNTY</h5>
-             
-                 <h5>MOMBASA COUNTY</h5>
-             
-                 <h5>MAILINDI COUNTY</h5>
-             
-                 <a style="color: #fdcb25;" href="read.html">READ MORE &mdash;&gt;</a>
-             </p >
+
+              <ul class="footer-list">
+                <h5 style="color: gray;">AUTODUKA DEALERS</h5>
+                <li class="footer-list-item">NAIROBI COUNTY</li>
+                <li class="footer-list-item">NAKURU COUNTY</li>
+                <li class="footer-list-item">KERICHO COUNTY</li >
+                <li class="footer-list-item">KISUMU COUNTY</li>
+                <li class="footer-list-item">MOMBASA COUNTY</li>
+                <li class="footer-list-item">MAILINDI COUNTY</li>
+
+                <a style="color: #fdcb25;" href="read.html">READ MORE  <span style='font-size:30px;'>&#8594;</span></a>
+              </ul>
         </div>
         <div id='footer-left'> 
             <h5 style="color: gray;">TALK TO US</h5>
-            <p>
+            <p class="footer-left-item">
                LENANA RD. JUMIA PLACE 4TH FLOOR WESTWING:<br> 
                +254 720 900 900
             </p>
